@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Slides inspirados en el fútbol con carrusel de imágenes y datos clave.">
+    <title>Kickoff Slides - Presentación Futbolera</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="slides-body">
+    <header class="slides-header" role="banner">
+        <div class="slides-header__titles">
+            <h1>Kickoff Power Slides</h1>
+            <h2>Estrategia de juego</h2>
+            <h2>Momentos clave del torneo</h2>
+            <h2>Jugadores a seguir</h2>
+            <h3>Inspiración para tu próxima charla motivacional</h3>
+        </div>
+        <a class="slides-header__back" href="index.html">Volver al inicio</a>
+    </header>
+
+    <main class="slides-main" role="main">
+        <section class="carousel" aria-label="Galería de momentos futboleros">
+            <div class="carousel__viewport" role="group" aria-live="polite">
+                <img class="carousel__image" src="assets/img/slide1.jpg" alt="Jugadores celebrando un gol" loading="lazy">
+            </div>
+            <div class="carousel__controls" role="group" aria-label="Controles del carrusel">
+                <button class="carousel__button carousel__button--prev" type="button" aria-label="Imagen anterior">
+                    &#10094;
+                </button>
+                <button class="carousel__button carousel__button--next" type="button" aria-label="Imagen siguiente">
+                    &#10095;
+                </button>
+            </div>
+            <div class="carousel__dots" role="tablist" aria-label="Paginación del carrusel"></div>
+        </section>
+    </main>
+
+    <footer class="slides-footer" role="contentinfo">
+        <p>Diseñado para presentar historias de fútbol con energía.</p>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>
